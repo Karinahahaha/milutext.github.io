@@ -1,0 +1,340 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>xh网-1.5</title>
+<script src="echarts.min.js"></script>
+<style type="text/css">
+body {
+	font-size: medium;
+	text-align: left;
+}
+#firstlogo {
+	height: 30px;
+	background-color: #024AC2;
+	color: #FEF9F9;
+	text-align: left;
+	padding-top: 9px;
+	width: 1262px;
+	text-decoration: none;
+}
+#manylmr #manymid h3 {
+	color: #5DA0E8;
+	text-decoration: underline;
+}
+#firstlogo a {
+	text-decoration: none;
+	color: #FBFBFB;
+}
+#firstlogo a:hover {
+	color: #6381C7;
+	padding-left: 5px;
+}
+#firstlogo a:link {
+	color: #FBF8F8;
+}
+a:link {
+	text-decoration: none;
+	color: #000000;
+}
+a:visited {
+	text-decoration: none;
+	color: #000000;
+}
+a:hover {
+	text-decoration: none;
+	color: #2D99C5;
+}
+a:active {
+	text-decoration: none;
+	color: #5E5C5C;
+}
+#content {
+	padding-right: 25%;
+	padding-left: 25%;
+	text-align: left;
+}
+#content1  {
+	padding-left: 25%;
+	padding-right: 25%;
+	text-align: left;
+}
+#content h4 {
+	font-size: large;
+	font-weight: bolder;
+	padding-left: 25%;
+	text-align: center;
+}
+#content h2 {
+	font-weight: bolder;
+	font-size: xx-large;
+	padding-right: 0px;
+}
+#content2 {
+	padding-left: 25%;
+	padding-right: 25%;
+	text-align: left;
+}
+#pic1 {
+	padding-left: 25%;
+	padding-right: 25%;
+	text-align: center;
+}
+#content3 {
+	text-align: left;
+	padding-left: 25%;
+	padding-right: 25%;
+}
+#content4 {
+	padding-left: 25%;
+	padding-right: 25%;
+	text-align: center;
+	font-size: medium;
+	font-weight: bolder;
+}
+#pic2 {
+	text-align: center;
+}
+#content5 {
+	text-align: left;
+	padding-left: 25%;
+	padding-right: 25%;
+}
+#content6 {
+	text-align: left;
+	padding-right: 25%;
+	padding-left: 25%;
+}
+#pic3 {
+	text-align: center;
+}
+#content7 {
+	text-align: left;
+}
+#pic4 {
+	text-align: center;
+}
+h5 {
+	padding-right: 0px;
+	text-align: center;
+}
+h2 {
+	text-align: center;
+}
+h4 {
+	padding-left: 25%;
+	padding-right: 25%;
+}
+#content8 {
+	text-align: left;
+}
+#content3 a {
+	text-decoration: underline;
+}
+#content7 a {
+}
+p {
+	line-height: 30px;
+	text-indent: 30px;
+}
+td p a {
+	color: #5E5C5C;
+}
+#manylmr {
+	background-color: #EBF0FA;
+	width: 1262px;
+	height: 334px;
+	margin-top: 0px;
+}
+#manylmr a  {
+	color: #378DE4;
+	text-decoration: underline;
+}
+#manymid {
+	width: 30%;
+	height: 210px;
+	background-color: #FBF7F7;
+	margin-left: 55px;
+	margin-top: 10px;
+	margin-right: 0px;
+	float: left;
+}
+#manyleft {
+	width: 30%;
+	height: 210px;
+	background-color: #FDFBFB;
+	text-decoration: none;
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+	margin-right: 0px;
+}
+#manylmr h3  {
+	text-decoration: underline;
+	color: #378DE4;
+	line-height: 0px;
+	text-indent: 0px;
+}
+#manylmr p  {
+	text-indent: 0px;
+	text-decoration: none;
+}
+#manyright {
+	background-color: #FCFBFB;
+	width: 30%;
+	height: 210px;
+	margin-left: 65%
+%
+%;
+	margin-left: 68%
+%
+%;
+	padding-right: 0px;
+	margin-right: 10px;
+	margin-top: 10px;
+	float: right;
+}
+#content6 #content8 span {
+}
+#manylmr #manymid h3 {
+	color: #378DE4;
+}
+#main {
+}
+#bydate {
+	margin-left: 32%;
+	margin-right: 32%;
+}
+</style>
+</head>
+
+<body>
+<div id="firstlogo">新华网，让新闻离你更近&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;新华报刊&nbsp;网站无障碍&nbsp;地方频道&nbsp;承建网站&nbsp;<a href="http://big5.news.cn/gate/big5/www.news.cn/" target="_blank">中文/繁体</a></div><table width="1276" height="107">
+  <tbody>
+    <tr>
+      <td width="188" rowspan="3"><img src="logo.png" width="185" height="89" alt=""/></td>
+      <td width="195" rowspan="3" nowrap="nowrap" style="color: #5E5C5C; font-size: medium;"><p>新华通讯社主办</p>
+        <p><a href="http://www.news.cn/company/" target="_blank" role="a">公司官网</a></p>
+      <p>股票代码：<em>603888</em></p></td>
+      <td height="20">&nbsp;</td>
+    </tr>
+    <tr>
+      <td width="877" height="57" nowrap="nowrap"><p style="font-size: medium"><a href="http://www.news.cn/politics/xxjxs/index.htm" target="_blank">学习进行时</a> <a href="http://www.news.cn/politics/leaders/index.htm" target="_blank">高层</a> <a href="http://www.news.cn/politics/index.html" target="_blank">时政</a> <a href="http://www.news.cn/politics/xhrs/index.html" target="_blank">人事</a> <a href="http://www.news.cn/world/index.html" target="_blank">国际</a> <a href="http://www.news.cn/fortune/index.htm" target="_blank">财经</a> 网评 港澳 台湾 思客智库 全球连线 教育 科技 科普 体育 文化 健康 军事 访谈 </p>
+      <p> <span style="font-size: medium"><a href="http://www.news.cn/money/index.html" target="_blank">金融</a> <a href="http://www.news.cn/auto/index.html" target="_blank">汽车</a> <a href="http://www.news.cn/food/index.html" target="_blank">食品</a> <a href="xinhuanet.com/house/index.html" target="_blank">房产</a> <a href="http://www.news.cn/info/index.html">信息化</a> <a href="http://xczx.news.cn/" target="_blank">乡村振兴</a> 溯源中国 城市 旅游 能源 会展 彩票 娱乐 时尚 悦读 公益 书画 一带一路 亚太网 &nbsp;&nbsp; &nbsp; </span></p></td>
+    </tr>
+    <tr>
+      <td height="20">&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+<img src="屏幕截图 2023-01-07 124432.png" width="1262" height="340" alt=""/>
+<div id="manylmr">
+  <div id="manyleft">
+	  <p><h3><a href="http://www.news.cn/politics/xhrs/index.html" target="_blank">人事</a></h3></p>
+	<hr>
+<p>·陈杰、吴岩任教育部副部长</p>
+<p>·曹晓钟任中国气象局副局长</p>
+<p>·王祥喜任国家消防救援局第一政治委员，琼色任国家消防救援局局长，徐平任国家消防救援局政治委员</p>
+	<img src="屏幕截图 2023-01-08 103518.png" width="377" height="92" alt=""/></div>
+  <div id="manymid">
+    <p><h3><a href="http://education.news.cn/index.htm" target="_blank">教育</a></h3></p>
+    <hr>
+    <p>·“找课本茬”背后的创新精神培养</p>
+<p>·北京市多区今年增设中小学学位</p>
+<p>·2023年度国考今举行：拟招3.7万人，近260万人报考</p>
+	<img src="屏幕截图 2023-01-08 103725.png" width="377" height="92" alt=""/></div>
+<div id="manyright">
+	<p><h3><a href="http://www.news.cn/tech/" target="_blank">科技</a></h3></p>
+	<hr>
+	<p>全国科普工作经费达189.07亿元 比2020年增长10.10%</p>
+<p>杜绝霸王条款 不能让智能电视机成为“套娃机”</p>
+<p>需求爆发式增长 高精度定位服务成市场新热点</p>
+	<img src="屏幕截图 2023-01-08 103739.png" width="377" height="92" alt=""/></div>
+</div>
+<div id="content"><h4>境外输入病例</h4>
+  <h2>30天从哪儿来？到哪儿去？    </h2>
+  <h2>归国之路几多曲折？</h2>
+	<p>自2月26日报告首例境外输入病例起，中国国内已累计报告输入病例649例。</p>
+
+<p>一个月以来，境外输入病例累计和当日新增均呈增长之势。随着各国收紧疫情防控政策，海外国人回国航班中转次数越来越多。为从源头上遏制境外输入病例持续增长，3月26日，中国民航局发文减少国际航班数量。海外华人归国之路，将更显曲折艰辛。</p>
+
+<p>新冠疫情海外燎原，欧洲、美国疫情持续升级，越来越多的华人选择在这一严峻时刻回国。随着归国人士增多，中国境外输入病例也在最近一个月来飙升。本已趋于可控的本土疫情再次敲响警钟，北上广等人口流动性大的省份及地区面临新挑战。
+  <h5><img src="./境外输入病例追踪（1）_files/flight.gif" id="flight-icon"></h5></p><h3 style="text-align: center">中国境外输入病例飙升</h3>
+</div>
+<div id="content1"><p>2月26日，宁夏通报第一例境外输入病例。该病例由伊朗输入，经莫斯科、上海、兰州三次中转，最终达到宁夏。</p>
+
+<p>此后的一个月，中国各地本土新增确诊病例基本清零，境外输入病例成为防疫新挑战。从3月18日开始，日新增境外输入病例均超过30例。</p>
+
+<p>截至3月27日24时，国家卫健委通报中国各地累计报告新冠肺炎境外输入确诊病例达到649例，其中超过60%在北京、上海、广东三地。北京以累计156例位居首位，上海146例第二，广东115例第三。</p><h3 style="text-align: center">中国境外输入病例从哪儿来？到哪儿去？</h3>
+</div>
+<div id="content2"><p>财新记者梳理境外输入病例数据发现，回到中国后确诊的病例，主要来自目前疫情最为严重的美国、欧洲及伊朗。截至3月27日，输入中国病例数超过30例的国家有英国、美国、西班牙、意大利、伊朗、法国及菲律宾，这7个国家中，除了菲律宾，本土累计的新冠确诊病例均超过1万例。</p><h3 style="text-align: center">中国境外输入病例大多来自疫情严重的国家</h3>
+</div>
+<div class="content" id="bydate">
+<svg width="480" height="500"><g><text y="0" x="0" dx="0" dy="10" font-size="12" style="font-weight: 900;">当地确诊（万例）</text><text y="480" x="480" dx="-80" dy="10" font-size="12" style="font-weight: 900;">输入病例（例）</text><text y="480" x="0" dx="0" dy="10" font-size="12" fill="#999">注：数据截至2020年3月27日</text><text y="450" x="0" dx="0" dy="5" font-size="10" style="opacity: 0;">0</text><line y1="450" y2="450" x1="20" x2="465" stroke="#eee" stroke-width="1"></line><text y="366" x="0" dx="0" dy="5" font-size="10" style="opacity: 1;">2</text><line y1="366" y2="366" x1="20" x2="465" stroke="#eee" stroke-width="1"></line><text y="282" x="0" dx="0" dy="5" font-size="10" style="opacity: 1;">4</text><line y1="282" y2="282" x1="20" x2="465" stroke="#eee" stroke-width="1"></line><text y="198" x="0" dx="0" dy="5" font-size="10" style="opacity: 1;">6</text><line y1="198" y2="198" x1="20" x2="465" stroke="#eee" stroke-width="1"></line><text y="113.99999999999999" x="0" dx="0" dy="5" font-size="10" style="opacity: 1;">8</text><line y1="113.99999999999999" y2="113.99999999999999" x1="20" x2="465" stroke="#eee" stroke-width="1"></line><text y="30" x="0" dx="0" dy="5" font-size="10" style="opacity: 1;">10</text><line y1="30" y2="30" x1="20" x2="465" stroke="#eee" stroke-width="1"></line><text x="20" y="450" dx="-5" dy="20" font-size="10">0</text><line x1="20" x2="20" y1="30" y2="450" stroke="#eee" stroke-width="1"></line><text x="131.25" y="450" dx="-5" dy="20" font-size="10">50</text><line x1="131.25" x2="131.25" y1="30" y2="450" stroke="#eee" stroke-width="1"></line><text x="242.5" y="450" dx="-5" dy="20" font-size="10">100</text><line x1="242.5" x2="242.5" y1="30" y2="450" stroke="#eee" stroke-width="1"></line><text x="353.75" y="450" dx="-5" dy="20" font-size="10">150</text><line x1="353.75" x2="353.75" y1="30" y2="450" stroke="#eee" stroke-width="1"></line><text x="465" y="450" dx="-5" dy="20" font-size="10">200</text><line x1="465" x2="465" y1="30" y2="450" stroke="#eee" stroke-width="1"></line></g><g><circle cy="89.47199999999998" cx="226.925" alt="美国" r="5" fill="rgba(255,0,0,0.2" stroke="rgba(255,0,0,0.9" style="display: block;"></circle><circle cy="111.5262" cx="133.475" alt="意大利" r="5" fill="rgba(255,0,0,0.2" stroke="rgba(255,0,0,0.9" style="display: block;"></circle><circle cy="207.2988" cx="180.20000000000002" alt="西班牙" r="5" fill="rgba(255,0,0,0.2" stroke="rgba(255,0,0,0.9" style="display: block;"></circle><circle cy="265.4604" cx="26.674999999999997" alt="德国" r="5" fill="rgba(255,0,0,0.2" stroke="rgba(255,0,0,0.9" style="display: block;"></circle><circle cy="325.8228" cx="144.60000000000002" alt="法国" r="5" fill="rgba(255,0,0,0.2" stroke="rgba(255,0,0,0.9" style="display: block;"></circle><circle cy="326.4948" cx="124.57499999999999" alt="伊朗" r="5" fill="rgba(255,0,0,0.2" stroke="rgba(255,0,0,0.9" style="display: block;"></circle><circle cy="400.38960000000003" cx="447.2" alt="英国" r="5" fill="rgba(255,0,0,0.2" stroke="rgba(255,0,0,0.9" style="display: block;"></circle><circle cy="400.39379999999994" cx="40.025" alt="瑞士" r="5" fill="rgba(255,0,0,0.2" stroke="rgba(255,0,0,0.9" style="display: block;"></circle><circle cy="410.8056" cx="20" alt="韩国" r="5" fill="rgba(255,0,0,0.2" stroke="rgba(255,0,0,0.9" style="display: block;"></circle><circle cy="418.6302" cx="24.450000000000003" alt="荷兰" r="5" fill="rgba(255,0,0,0.2" stroke="rgba(255,0,0,0.9" style="display: block;"></circle><circle cy="420.9822" cx="26.674999999999997" alt="奥地利" r="5" fill="rgba(255,0,0,0.2" stroke="rgba(255,0,0,0.9" style="display: block;"></circle><circle cy="423.813" cx="22.224999999999998" alt="比利时" r="5" fill="rgba(255,0,0,0.2" stroke="rgba(255,0,0,0.9" style="display: block;"></circle><circle cy="433.00679999999994" cx="31.125" alt="加拿大" r="5" fill="rgba(255,0,0,0.2" stroke="rgba(255,0,0,0.9" style="display: block;"></circle><circle cy="434.7582" cx="24.450000000000003" alt="土耳其" r="5" fill="rgba(255,0,0,0.2" stroke="rgba(255,0,0,0.9" style="display: block;"></circle><circle cy="435.11519999999996" cx="22.224999999999998" alt="葡萄牙" r="5" fill="rgba(255,0,0,0.2" stroke="rgba(255,0,0,0.9" style="display: block;"></circle><circle cy="435.8376" cx="22.224999999999998" alt="挪威" r="5" fill="rgba(255,0,0,0.2" stroke="rgba(255,0,0,0.9" style="display: block;"></circle><circle cy="437.463" cx="35.575" alt="巴西" r="5" fill="rgba(255,0,0,0.2" stroke="rgba(255,0,0,0.9" style="display: block;"></circle><circle cy="437.463" cx="20" alt="澳大利亚" r="5" fill="rgba(255,0,0,0.2" stroke="rgba(255,0,0,0.9" style="display: block;"></circle><circle cy="438.072" cx="22.224999999999998" alt="瑞典" r="5" fill="rgba(255,0,0,0.2" stroke="rgba(255,0,0,0.9" style="display: block;"></circle><circle cy="438.68940000000003" cx="20" alt="以色列" r="5" fill="rgba(255,0,0,0.2" stroke="rgba(255,0,0,0.9" style="display: block;"></circle><circle cy="441.138" cx="22.224999999999998" alt="日本" r="5" fill="rgba(255,0,0,0.2" stroke="rgba(255,0,0,0.9" style="display: block;"></circle><circle cy="441.4698" cx="22.224999999999998" alt="马来西亚" r="5" fill="rgba(255,0,0,0.2" stroke="rgba(255,0,0,0.9" style="display: block;"></circle><circle cy="441.5034" cx="20" alt="丹麦" r="5" fill="rgba(255,0,0,0.2" stroke="rgba(255,0,0,0.9" style="display: block;"></circle><circle cy="441.91499999999996" cx="20" alt="捷克" r="5" fill="rgba(255,0,0,0.2" stroke="rgba(255,0,0,0.9" style="display: block;"></circle><circle cy="442.3602" cx="20" alt="爱尔兰" r="5" fill="rgba(255,0,0,0.2" stroke="rgba(255,0,0,0.9" style="display: block;"></circle><circle cy="443.8974" cx="24.450000000000003" alt="卢森堡" r="5" fill="rgba(255,0,0,0.2" stroke="rgba(255,0,0,0.9" style="display: block;"></circle><circle cy="444.10740000000004" cx="20" alt="厄瓜多尔" r="5" fill="rgba(255,0,0,0.2" stroke="rgba(255,0,0,0.9" style="display: block;"></circle><circle cy="444.5148" cx="22.224999999999998" alt="智利" r="5" fill="rgba(255,0,0,0.2" stroke="rgba(255,0,0,0.9" style="display: block;"></circle><circle cy="444.8718" cx="20" alt="波兰" r="5" fill="rgba(255,0,0,0.2" stroke="rgba(255,0,0,0.9" style="display: block;"></circle><circle cy="444.9558" cx="37.8" alt="巴基斯坦" r="5" fill="rgba(255,0,0,0.2" stroke="rgba(255,0,0,0.9" style="display: block;"></circle><circle cy="445.2288" cx="42.25" alt="泰国" r="5" fill="rgba(255,0,0,0.2" stroke="rgba(255,0,0,0.9" style="display: block;"></circle><circle cy="445.6782" cx="20" alt="罗马尼亚" r="5" fill="rgba(255,0,0,0.2" stroke="rgba(255,0,0,0.9" style="display: block;"></circle><circle cy="445.7496" cx="28.900000000000002" alt="沙特" r="5" fill="rgba(255,0,0,0.2" stroke="rgba(255,0,0,0.9" style="display: block;"></circle><circle cy="447.0306" cx="102.325" alt="菲律宾" r="5" fill="rgba(255,0,0,0.2" stroke="rgba(255,0,0,0.9" style="display: block;"></circle></g><g><text y="89.47199999999998" x="226.925" dx="7" dy="4" fill="#333" font-size="10" style="display: block;">美国</text><text y="111.5262" x="133.475" dx="7" dy="4" fill="#333" font-size="10" style="display: block;">意大利</text><text y="207.2988" x="180.20000000000002" dx="7" dy="4" fill="#333" font-size="10" style="display: block;">西班牙</text><text y="265.4604" x="26.674999999999997" dx="7" dy="4" fill="#333" font-size="10" style="display: block;">德国</text><text y="325.8228" x="144.60000000000002" dx="7" dy="4" fill="#333" font-size="10" style="display: block;">法国</text><text y="326.4948" x="124.57499999999999" dx="-6" dy="16" fill="#333" font-size="10" style="display: block;">伊朗</text><text y="400.38960000000003" x="447.2" dx="7" dy="4" fill="#333" font-size="10" style="display: block;">英国</text><text y="400.39379999999994" x="40.025" dx="7" dy="4" fill="#333" font-size="10" style="display: block;">瑞士</text><text y="410.8056" x="20" dx="7" dy="4" fill="#333" font-size="10" style="display: none;">韩国</text><text y="418.6302" x="24.450000000000003" dx="7" dy="4" fill="#333" font-size="10" style="display: none;">荷兰</text><text y="420.9822" x="26.674999999999997" dx="7" dy="4" fill="#333" font-size="10" style="display: none;">奥地利</text><text y="423.813" x="22.224999999999998" dx="7" dy="4" fill="#333" font-size="10" style="display: none;">比利时</text><text y="433.00679999999994" x="31.125" dx="7" dy="4" fill="#333" font-size="10" style="display: none;">加拿大</text><text y="434.7582" x="24.450000000000003" dx="7" dy="4" fill="#333" font-size="10" style="display: none;">土耳其</text><text y="435.11519999999996" x="22.224999999999998" dx="7" dy="4" fill="#333" font-size="10" style="display: none;">葡萄牙</text><text y="435.8376" x="22.224999999999998" dx="7" dy="4" fill="#333" font-size="10" style="display: none;">挪威</text><text y="437.463" x="35.575" dx="7" dy="4" fill="#333" font-size="10" style="display: none;">巴西</text><text y="437.463" x="20" dx="7" dy="4" fill="#333" font-size="10" style="display: none;">澳大利亚</text><text y="438.072" x="22.224999999999998" dx="7" dy="4" fill="#333" font-size="10" style="display: none;">瑞典</text><text y="438.68940000000003" x="20" dx="7" dy="4" fill="#333" font-size="10" style="display: none;">以色列</text><text y="441.138" x="22.224999999999998" dx="7" dy="4" fill="#333" font-size="10" style="display: none;">日本</text><text y="441.4698" x="22.224999999999998" dx="7" dy="4" fill="#333" font-size="10" style="display: none;">马来西亚</text><text y="441.5034" x="20" dx="7" dy="4" fill="#333" font-size="10" style="display: none;">丹麦</text><text y="441.91499999999996" x="20" dx="7" dy="4" fill="#333" font-size="10" style="display: none;">捷克</text><text y="442.3602" x="20" dx="7" dy="4" fill="#333" font-size="10" style="display: none;">爱尔兰</text><text y="443.8974" x="24.450000000000003" dx="7" dy="4" fill="#333" font-size="10" style="display: none;">卢森堡</text><text y="444.10740000000004" x="20" dx="7" dy="4" fill="#333" font-size="10" style="display: none;">厄瓜多尔</text><text y="444.5148" x="22.224999999999998" dx="7" dy="4" fill="#333" font-size="10" style="display: none;">智利</text><text y="444.8718" x="20" dx="7" dy="4" fill="#333" font-size="10" style="display: none;">波兰</text><text y="444.9558" x="37.8" dx="7" dy="4" fill="#333" font-size="10" style="display: none;">巴基斯坦</text><text y="445.2288" x="42.25" dx="7" dy="4" fill="#333" font-size="10" style="display: none;">泰国</text><text y="445.6782" x="20" dx="7" dy="4" fill="#333" font-size="10" style="display: none;">罗马尼亚</text><text y="445.7496" x="28.900000000000002" dx="7" dy="4" fill="#333" font-size="10" style="display: none;">沙特</text><text y="447.0306" x="102.325" dx="7" dy="4" fill="#333" font-size="10" style="display: block;">菲律宾</text></g></svg></div>
+<div id="content3"><p>值得注意的是，菲律宾以外的6国中，英国输入的确诊病例远高于其他国家，达到192例，比位于第二的美国（93例）多了1倍。但目前英国本地的累计确诊病例远低于美国、意大利、西班牙等国。</p>
+
+<p>英国输入的确诊病例多，或与两个因素相关。首先，在境外输入病例的人员分布中，留学生占据很大比例，而英国是中国人留学的主要目的地。英国驻华大使馆数据显示，2018年英国向将近10万名中国学生发放Tier-4留学签证，占全球学生签证总量的四成，稳居第一。（详见财新报道：<a href="https://www.caixin.com/2020-03-21/101532168.html" target="_blank">境外回流病例增幅加大 英国成北京最大输入来源</a>）</p>
+
+<p>原因之二则与各国的防疫政策有关。相较于抗疫手段愈加严厉的伊朗、美国及欧洲其他国家，英国此前并未采取明显强制性的隔离和检疫措施，所提出的“群体免疫”打法也广受争议。</p>
+
+<p>帝国理工学院3月16日曾发布研究报告称，团队通过数学建模模拟疫情走势发现，如果英国继续实行缓疫策略，最终或将导致英国25万人因感染新冠死亡。（<a href="https://www.caixin.com/2020-03-18/101530115.html" target="_blank">详见财新报道：英国智囊评估“群体免疫”打法 最高或致25万人死亡</a>）</p></div>
+<div id="content4"><h3>北京境外输入确诊病例过半为留学生</h3></div>
+<div id="pic2"><img src="beijing-percent.jpg" width="399.6" height="192.9" alt=""/></div>
+<div id="content5"><p><span style="text-align: left">北京是境外输入病例最多的城市，财新记者梳理发现，北京过半确诊病例为留学生，有五分之一为公司职员。目前欧美成为新冠疫情的“震中”，各类学校先后关闭，致使大批留学生回国。</span></p>
+
+<p><span style="text-align: left">随着疫情不断加重，学校提高警戒级别，在英国剑桥大学读博的小郭称，从3月16日开始的一周里，学校“一天一封邮件，让大家走。”目前，欧美多所学校已停课，并建议国际生在保证旅途安全的情况下回国。</span></p>
+</div>
+<div id="content6"><p><span style="text-align: left">俄罗斯莫斯科和泰国曼谷，是目前境外输入确诊病例回国航线中两个最大的中转地。随着各国航线减少和入境政策收紧，回国的路线越发曲折。</span></p>
+
+<p><span style="text-align: left">财新记者梳理发现，境外输入确诊病例中，回国航班中转次数最多的达到四站。例如，一例患者于3月16日在法国巴黎启程回国，经卡塔尔多哈中转在3月17日到达香港，当晚滞留。3月18日，从香港乘坐航班飞抵上海虹桥国际机场，因申报有法国旅居史，海关将其定点隔离观察，经测体温正常后于3月19日从上海飞抵广东湛江机场。</span></p>
+
+<p><span style="text-align: left">由于疫情中各国施行航空管控，入境政策经常变化，很多航班被改签或取消，回国的机票“非常紧张”。荷兰阿姆斯特丹大学的小纪，在起飞前一天买到机票，一张平时六七千块人民币的机票，现在飙升到1.8万余元。</span></p>
+
+<p><span style="text-align: left">这种情况并不是孤例。伦敦国王学院的小菲于3月16日临时买到回国的机票，3天后从英国伦敦出发，经埃塞俄比亚中转于3月20日落地广州。由于买票时间距离起飞时间很短，这张机票比平时的价格高出1倍以上。</span></p>
+
+<p><span style="text-align: left">随着各国入境和签证政策收紧，留学生们不得不作出预备计划，小菲称她认识的不少留学生手上同时有超过2张机票，“很多人都是改签再改签，就是为了避免航班取消，导致没法顺利回家。"</span></p>
+<h3>3月以来直飞航班越来越少</h3>
+	<div id="pic3"><img src="屏幕截图 2023-01-07 160756.png" width="365" height="250" alt=""/></div>
+  <div id="content7"><p>小郭是启程回国较晚的一批人，3月21日才从英国伦敦出发。他买票时一周内直飞回国的机票已经买不到了，而中转经由迪拜或者阿布扎比回国的航班同样一票难求。考虑到德国、日本、韩国、新加坡这些国家疫情较为严重，小郭选择经由非洲转机：“当时买的机票3700多块，过两天再看9000多块了，涨了不少。”</p>
+
+<p>机票价格上涨并不是回国路上最大的阻碍，“一路上，各种信息不确定是最麻烦的。”小郭回国的航班在埃塞俄比亚转机需等待17个小时，刚落地时，埃塞俄比亚当地政策更改，所有入境人员需要隔离14天，“我们就没敢出机场，害怕再进不来了。”</p>
+
+<p>在埃塞俄比亚转机时，北京推出航班分流政策。3月23日凌晨，就在要踏上回国的航班前一小时，小郭收到通知，原本直飞北京的机票被一分为二，变为埃塞俄比亚到太原、太原到北京。3月23日下午，小郭落地太原，此时，距离小郭启程回国已经过去了43个小时。</p>
+
+<p>落地太原后，经过一系列检疫流程，小郭和飞机上的乘客被安排进太原当地的酒店隔离，等待核酸检测结果。目前，小郭仍在太原隔离。</p>
+
+<p>为从第一关卡上控制持续增加的境外输入确诊数量，3月26日，民航局发布《关于疫情防控期间继续调减国际客运航班量的通知》，以3月16日至22日国内外航空公司国际航线计划为基准，国内航企至任一国家航线和外国航企至国内航线均只留一条。该通知自2020年3月29日起执行，新规将使航班削减近九成。</p>
+
+<p>此前，新加坡、阿联酋迪拜、阿布扎比、俄罗斯莫斯科、中国香港和中国台湾的台北机场，已经陆续关闭了入境口岸，最后两个中转口岸俄罗斯于3月27日起禁飞常规航班与包机，泰国3月26日起也开始实施紧急状态法令，禁止外国人入境。（<a href="https://companies.caixin.com/2020-03-27/101534654.html" target="_blank">详情见财新报道：国际航班削减九成 视情况启动临时包机</a>）</p>
+
+<p>随着海外疫情持续蔓延，往来中国的国际航班在逐渐减少。然而，由于回国人士数量仍大，北上广深等中国主要入境空港的检疫和隔离压力在持续增加。</p>
+
+<p>据统计，近期每周目的地为北京的国际航班数量仍有超过200个。为控制境外疫情输入，中国民航局等多部门3月22日发布联合公告，自3月23日零时开始，所有目的地为北京的国际航班均须从指定的12个第一入境点入境，旨在将目的地为北京的国际航班分流。</p>
+
+<p>根据民航局公告，航班实际分流到何处取决于执飞航空公司。中国国航由于航班量最大，被分配了9个第一入境点，分别为天津、石家庄、呼和浩特、沈阳、大连、上海、青岛、郑州、西安。南方航空对接沈阳和济南，海南航空和另外9个国际航空公司与9个城市一对一指定入境。</p>
+
+<p>财新记者梳理民航局公布的“3月23日至29日中外航空公司国际航班计划”发现，在目的地为北京的国际航班分流计划执行的首周，预计有至少228架航班被分流。</p>
+<h3 style="text-align: center">目的地北京的国际航班分流情况</h3>
+  </div>
+  <div id="pic4"><img src="fenliu.jpg" width="400" height="914.1" alt=""/></div>
+  <div id="content8"><p>此前，多篇报道曾提及，近期主要入境空港管理压力巨大，工作人员往往超负荷工作，政策频繁更新也使机场工作人员必须快速适应和执行检测及人员疏散新方案。</p>
+
+<p>归国人员入境所需时间也随之增多。经历了9个小时不吃不喝的飞行和3个小时等待，小纪落地入境，而小纪身边的朋友经过了5小时至7个小时的等待，才办好各类手续……</p><span style="font-size: x-small; color: #666666; text-align: center;">
+<hr>
+
+<p>数据来源：根据公开资料整理</p>
+
+<p>记者：魏冰（实习）董梦圆（实习）</p>
+
+<p>设计：冷斌 韦梦</p>
+
+<p>开发：韦梦</p>
+
+<p>监制：耿铭钟</p>
+
+ 
+
+<p>财新数据可视化实验室出品</p></span></div>
+</div>
+</body>
+</html>
